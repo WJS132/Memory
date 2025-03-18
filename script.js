@@ -2,6 +2,7 @@ let firstCard = null;
 let secondCard = null;
 let moveCount = 0;
 let pairsCount = 0;
+let main = document.querySelector("main");
 let images = ["bug.png", "bug.png", "cap.png", "cap.png", "chip.png", "chip.png", "gears.png", "gears.png", "keyboard.png", "keyboard.png", "logic.png", "logic.png", "rocket.png", "rocket.png", "satellite.png", "satellite.png"];
 const cards = document.querySelectorAll(".card");
 console.log(images);
@@ -47,7 +48,8 @@ function hideCards(){
         secondCard = null;
         if (pairsCount == 8){
             playAgain.style.display = "inline-block";
-            info.textContent = `Gra wygrana w ${moveCount} krokach!`
+            info.textContent = `Gra wygrana w ${moveCount} krokach!`;
+            main.style.height = "678";
         }
     }
     else {
@@ -66,6 +68,7 @@ function startGame(){
         karta.style.backgroundColor = "rgb(245,245,245";
         karta.style.backgroundImage = "";
         playAgain.style.display = "none";
+        main.style.height = "608";
         
     }
     for (let i = 0; i < 16; i++) {
