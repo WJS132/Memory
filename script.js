@@ -49,7 +49,7 @@ function hideCards(){
         if (pairsCount == 8){
             playAgain.style.display = "inline-block";
             info.textContent = `Gra wygrana w ${moveCount} krokach!`;
-            main.style.height = "648px";
+            main.style.height = "653px";
         }
     }
     else {
