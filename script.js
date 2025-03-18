@@ -16,7 +16,10 @@ function count(){
 }
 
 function flipCard(e){
-    if (e.target == firstCard){return;}
+    if (e.target == firstCard){
+        info.style.color = "yellow";
+        return;
+    }
     if (firstCard == null){
         firstCard = e.target;
         firstCard.style.backgroundImage = "url("+images[firstCard.id]+")";
