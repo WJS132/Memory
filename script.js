@@ -16,13 +16,13 @@ function count(){
 }
 
 function flipCard(e){
+    if (e.target == firstCard){return;}
     if (firstCard == null){
         firstCard = e.target;
         firstCard.style.backgroundImage = "url("+images[firstCard.id]+")";
         count();
     }
     else{
-        if (secondCard == e.target){return;}
         if (secondCard == null){
                 secondCard = e.target;
                 secondCard.style.backgroundImage = "url("+images[secondCard.id]+")";
