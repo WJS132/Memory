@@ -22,6 +22,7 @@ function flipCard(e){
         count();
     }
     else{
+        if (secondCard == e.target){return;}
         if (secondCard == null){
                 secondCard = e.target;
                 secondCard.style.backgroundImage = "url("+images[secondCard.id]+")";
