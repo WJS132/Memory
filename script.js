@@ -17,7 +17,6 @@ function count(){
 
 function flipCard(e){
     if (e.target == firstCard){
-        info.style.color = "yellow";
         return;
     }
     if (firstCard == null){
