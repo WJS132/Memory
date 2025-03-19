@@ -3,7 +3,16 @@ let secondCard = null;
 let moveCount = 0;
 let pairsCount = 0;
 let main = document.querySelector("main");
-let images = ["bug.png", "bug.png", "cap.png", "cap.png", "chip.png", "chip.png", "gears.png", "gears.png", "keyboard.png", "keyboard.png", "logic.png", "logic.png", "rocket.png", "rocket.png", "satellite.png", "satellite.png"];
+let images2 = ["bug.png", "bug.png", "cap.png", "cap.png", "chip.png", "chip.png", "gears.png", "gears.png", "keyboard.png", "keyboard.png", "logic.png", "logic.png", "rocket.png", "rocket.png", "satellite.png", "satellite.png"];
+let images = [
+    "chlopiec.jpg", "chlopiec.jpg",
+    "mucha.jpg", "mucha.jpg",
+    "somasz.jpg", "somasz.jpg",
+    "szewc.jpg", "szewc.jpg",
+    "gutenberg.png", "gutenberg.png",
+    "kebab.jpg", "kebab.jpg",
+    "drwal.jpg", "drwal.jpg",
+    "karpin.jpg", "karpin.jpg" ];
 const cards = document.querySelectorAll(".card");
 console.log(images);
 console.log(cards);
