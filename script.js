@@ -49,7 +49,7 @@ function hideCards(){
         if (pairsCount == 8){
             playAgain.style.display = "inline-block";
             info.textContent = `Gra wygrana w ${moveCount} krokach!`;
-            main.style.height = "653px";
+            main.style.height = "657px";
         }
     }
     else {
@@ -68,7 +68,7 @@ function startGame(){
         karta.style.backgroundColor = "rgb(245,245,245";
         karta.style.backgroundImage = "";
         playAgain.style.display = "none";
-        main.style.height = "608px";
+        main.style.height = "615px";
         
     }
     for (let i = 0; i < 16; i++) {
