@@ -70,9 +70,7 @@ function flipCard(e) {
 
 function hideCards() {
   if (firstCard.style.backgroundImage == secondCard.style.backgroundImage) {
-    firstCard.style.backgroundImage = "";
     bloki[firstCard.id].style.display = "block";
-    secondCard.style.backgroundImage = "";
     bloki[secondCard.id].style.display = "block";
     pairsCount += 1;
     firstCard.removeEventListener("click", flipCard);
