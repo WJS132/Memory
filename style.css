@@ -38,6 +38,11 @@ div.card{
     background-size: contain;
     
 }
+.black {
+  width: 125px;
+  height: 125px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
 h1{
     font-size: 2em;
 }
