@@ -104,7 +104,7 @@ function startGame() {
     czarny.style.display = "none";
     bloki.push(czarny);
   }
-  for (let i = 0; i < 30; i++) {
+  for (let i = 0; i < 16; i++) {
     let losowa = Math.floor(Math.random() * 16);
     let pomocna = images[i];
     images[i] = images[losowa];
